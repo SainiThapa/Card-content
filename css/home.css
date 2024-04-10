@@ -42,7 +42,7 @@ body{
 }
 .section h2{
     font-size: 32px;
-    font-family:fantasy;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .card-section{
@@ -51,7 +51,7 @@ body{
 .card{
     color:black;
     background-color: rgb(247, 195, 195);
-    font-family:fantasy;
+    font-family:sans-serif;
     
     display: inline-block;
     /* float:left; */
