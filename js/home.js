@@ -8,6 +8,7 @@ seeMoreButtons.forEach(button=>{
 
         var card=this.closest('.card');
         var content=card.querySelector('.card-content')
+
         if (content.style.display === 'none' || content.style.display=="") {
             content.style.display = 'block';
             this.textContent = 'See Less';
@@ -17,3 +18,14 @@ seeMoreButtons.forEach(button=>{
         }
     });
 });
+
+function toggleCardHeight(cardId) {
+    let card = document.getElementById(cardId);
+    console.log(card)
+    if(card.style.height=="auto"){
+        card.style.height ='600px';
+    }
+    else{
+        card.style.height='auto';
+    }
+}
