@@ -49,6 +49,7 @@ body{
     display:flex;
 }
 .card{
+    font-size: 16px;
     color:black;
     background-color: rgb(247, 195, 195);
     font-family:sans-serif;
